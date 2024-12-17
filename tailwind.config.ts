@@ -9,16 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
       },
       fontFamily: {
         // 👇 Add CSS variables
         sans: ["var(--font-opensans)"],
         mono: ["var(--font-roboto-mono)"],
         display: ["var(--font-display)"],
-        aeonikPro: ["var(--font-aeonik-pro)"],
-        brFirma: ["var(--font-br-firma)"],
+        aeonikPro: ["var(--font-aeonikPro)"],
+        brFirma: ["var(--font-brFirma)"],
       },
       backgroundImage: {
         'top-content-bg': "url('/background/vector.svg')",

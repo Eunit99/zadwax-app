@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${roboto.className}  antialiased w-screen h-screen overflow-hidden bg-[#EAECF0]`}
+        className={`${geistSans.variable} ${geistMono.variable} ${roboto.className}  antialiased w-screen h-screen overflow-auto bg-[#EAECF0]`}
       >
         <div
           className="flex h-screen font-sans antialiased"

@@ -8,7 +8,7 @@ export default function ChatContent() {
   return (
     <>
       <div
-        className="flex flex-col flex-1 overflow-hidden bg-white"
+        className="flex flex-col flex-1 overflow-auto bg-white"
       >
         <Topbar />
         <HomeContent />

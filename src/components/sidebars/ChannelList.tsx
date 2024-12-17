@@ -12,7 +12,7 @@ export default function ChannelList() {
 
         <div className="cursor-pointer mb-4">
           <div
-            className="bg-[#0077B5] h-10 w-10 flex items-center justify-center text-black text-2xl font-semibold rounded-lg mb-1 overflow-hidden">
+            className="bg-[#0077B5] h-10 w-10 flex items-center justify-center text-black text-2xl font-semibold rounded-lg mb-1 overflow-auto">
             <Image
               src="/icons/linkedin.svg"
               alt="linkedin"
@@ -27,7 +27,7 @@ export default function ChannelList() {
 
         <div className="cursor-pointer mb-4">
           <div
-            className="bg-[#040921] h-10 w-10 flex items-center justify-center text-black text-2xl font-semibold rounded-lg mb-1 overflow-hidden">
+            className="bg-[#040921] h-10 w-10 flex items-center justify-center text-black text-2xl font-semibold rounded-lg mb-1 overflow-auto">
             <Image
               src="/icons/figma.svg"
               alt="figma"
@@ -42,7 +42,7 @@ export default function ChannelList() {
 
         <div className="cursor-pointer mb-4">
           <div
-            className="bg-[#040921] h-10 w-10 flex items-center justify-center text-black text-2xl font-semibold rounded-lg mb-1 overflow-hidden">
+            className="bg-[#040921] h-10 w-10 flex items-center justify-center text-black text-2xl font-semibold rounded-lg mb-1 overflow-auto">
             <Image
               src="/icons/figma.svg"
               alt="figma"
@@ -57,7 +57,7 @@ export default function ChannelList() {
 
         <div className="cursor-pointer mb-4">
           <div
-            className="bg-[#ffffff] h-10 w-10 flex items-center justify-center text-black text-2xl font-semibold rounded-lg mb-1 overflow-hidden">
+            className="bg-[#ffffff] h-10 w-10 flex items-center justify-center text-black text-2xl font-semibold rounded-lg mb-1 overflow-auto">
             <Image
               src="/icons/add.svg"
               alt="add"
