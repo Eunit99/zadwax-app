@@ -6,3 +6,9 @@ export type IMiddleContent = {
   heading: string;
   description: string;
 }[];
+
+export type IBottomContent = {
+  id: number;
+  title: string;
+  description: string;
+}[];

@@ -1,4 +1,4 @@
-import { IMiddleContent } from "@/types/data.type";
+import { IBottomContent, IMiddleContent } from "@/types/data.type";
 
 
 
@@ -40,3 +40,27 @@ export const middleContentTwo: IMiddleContent = [
     description: "Capture every revision to ensure data integrity and transparency.",
   }
 ];
+
+
+export const bottomContent: IBottomContent = [
+  {
+    id: 1,
+    title: "Academic literature review",
+    description: "Organize your sources and synthesize information effectively."
+  },
+  {
+    id: 2,
+    title: "Data analysis templates",
+    description: "Streamline patient data collection and analysis for medical research."
+  },
+  {
+    id: 3,
+    title: "UX Heuristic template.",
+    description: "Assess your interface against established usability principles."
+  },
+  {
+    id: 4,
+    title: "Affinity mapping template",
+    description: "Assess your interface against established usability principles."
+  },
+]

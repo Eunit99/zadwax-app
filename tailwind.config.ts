@@ -20,6 +20,7 @@ export default {
       },
       backgroundImage: {
         'top-content-bg': "url('/background/vector.svg')",
+        'analysis-illustration': "url('/background/analysis-illustration.svg')",
       },
     },
   },

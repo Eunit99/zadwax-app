@@ -8,7 +8,7 @@ import BottomContent from './components/BottomContent'
 export default function HomeContent() {
   return (
     <div
-      className="flex flex-col gap-10 pl-8 pr-10 py-7"
+      className="flex flex-col gap-10 px-8 py-7"
     >
       <TopContent />
       <MiddleContent />
