@@ -1,4 +1,6 @@
 import React from 'react'
+import Topbar from './Topbar'
+import HomeContent from './HomeContent'
 
 
 
@@ -6,9 +8,10 @@ export default function ChatContent() {
   return (
     <>
       <div
-        className="flex-1 flex flex-col bg-white overflow-hidden"
+        className="flex flex-col flex-1 overflow-hidden bg-white"
       >
-
+        <Topbar />
+        <HomeContent />
       </div>
     </>
   )
