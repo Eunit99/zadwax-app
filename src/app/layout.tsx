@@ -1,17 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Roboto, Rubik } from "next/font/google";
+import { Geist, Geist_Mono, Rubik } from "next/font/google";
 import "./globals.css";
 
 
-
-
-
-import localFont from 'next/font/local'
-
-
-
-//👇 Configure our local font object
-// const br_firma_black = localFont({ src: "../fonts/BR-Firma-Black.otf" });
 
 
 
