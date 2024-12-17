@@ -8,13 +8,13 @@ import Image from 'next/image'
 export default function Topbar() {
   return (
     <>
-      <div className="flex items-center flex-none px-6 py-4 border-b">
+      <div className="flex items-center px-6 py-4 border-b">
         <div className="flex flex-col">
 
         </div>
 
 
-        <div className="flex-row items-center justify-end hidden gap-24 ml-auto md:flex">
+        <div className="flex flex-row items-center justify-end gap-4 ml-auto md:gap-24">
           <div className="relative flex">
 
             <div className="z-10 flex items-center justify-center pl-3 -mr-8 pin-y pin-l">
@@ -24,13 +24,13 @@ export default function Topbar() {
               </svg>
             </div>
             <input type="search" placeholder="Search"
-              className="py-2 pl-8 pr-4 border rounded-lg appearance-none border-grey w-80" />
+              className="py-2 pl-8 pr-4 border rounded-lg appearance-none border-grey w-50 md:w-80" />
 
           </div>
 
 
           <div
-            className="flex flex-row items-center justify-center gap-10"
+            className="flex flex-row items-center justify-center gap-4 md:gap-10"
           >
 
             <Image
@@ -52,7 +52,6 @@ export default function Topbar() {
             </Image>
 
           </div>
-
 
 
         </div>
