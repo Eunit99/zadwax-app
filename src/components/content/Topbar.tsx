@@ -8,7 +8,7 @@ import Image from 'next/image'
 export default function Topbar() {
   return (
     <>
-      <div className="flex items-center px-6 py-4 border-b">
+      <div className="flex items-center px-6 py-4 border-b sticky top-0 bg-white z-[999999999999999999]">
         <div className="flex flex-col">
 
         </div>
